@@ -12,19 +12,40 @@ body{
 
 header{
     width: 100%;
-    height: 66%;
+    height: 70%;
     background-image: url(../Assets/images/banner-bk.jpg);
-    display: flex;
     
 }
-/* .title{
-    width: 50%;
-    height: 50%;
+
+.icon-logo{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
     color: #fff;
-    font-size: 40px;
-    margin-left: 100px;
-    margin-top: 13rem;
-} */
+    font-size: 30px;
+}
+
+.icon-logo > box-icon{
+    margin-left: 9rem;
+    margin-top: 7rem;
+    font-size: 5rem;
+}
+
+.icon-logo > p{
+    margin-right: 9rem;
+    margin-top: 7rem;
+}
+
+.title{
+    width: 50%;
+    height: 30%;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    margin-left: 9rem;
+    
+} 
 /* .letters{
     
 } */
