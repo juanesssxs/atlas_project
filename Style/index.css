@@ -42,13 +42,30 @@ header{
     height: 30%;
     color: #fff;
     display: flex;
-    font-size: 30px;
+    font-size: 37px;
     margin-left: 9rem;
     
 } 
-/* .letters{
+.letters{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 9rem;
     
-} */
+}
+
+.get-started-buttom{
+    margin-left: 9rem;
+    margin-top: 3rem;
+}
+
+.get-started-buttom > button{
+    width: 8%;
+    border: none; 
+    color: rgb(8, 0, 0); 
+    padding: 14px 28px;  
+    border-radius: 40px; 
+    background-color: mediumspringgreen;
+}
 
 .protection{
     width: 100%;
