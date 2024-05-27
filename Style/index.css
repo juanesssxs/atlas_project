@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body{
@@ -176,13 +177,23 @@ section{
 .pricing{
     width: 100%;
     height: 90%;
-    background-color: #a42323;
+    background-color: #fff;
+    
+}
+
+.pricing > h3{
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .logos{
     width: 100%;
     height: 30%;
     background-color: #d0d1d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .contacus{
     width: 100%;
